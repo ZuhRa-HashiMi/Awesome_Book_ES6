@@ -1,3 +1,6 @@
+/* eslint-disable func-names */
+/* eslint-disable linebreak-style */
+// eslint-disable-next-line import/no-unresolved
 import Books from './modules/Books.js';
 import snaker from './modules/flashMessage.js';
 import showBlock from './modules/navbar.js';
