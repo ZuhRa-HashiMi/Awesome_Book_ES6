@@ -1,3 +1,8 @@
+/* eslint-disable no-multiple-empty-lines */
+/* eslint-disable linebreak-style */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable indent */
+/* eslint-disable linebreak-style */
 export default class Books {
     constructor(title = '', author = '') {
       this.title = title;
