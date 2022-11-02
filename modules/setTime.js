@@ -1,3 +1,7 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable indent */
+/* eslint-disable linebreak-style */
 /* eslint-disable no-undef */
 export default function startTime() {
     const localTime = luxon.DateTime.local();
@@ -6,5 +10,4 @@ export default function startTime() {
       luxon.DateTime.DATE_FULL,
     )}, ${localTime.toLocaleString(luxon.DateTime.TIME_WITH_SECONDS)}`;
     setTimeout(startTime, 1000);
-  }
-  
+  }  
