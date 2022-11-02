@@ -1,3 +1,7 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable no-multiple-empty-lines */
+/* eslint-disable linebreak-style */
+/* eslint-disable indent */
 /* flash messages */
 export default function snaker(type, mes, time) {
     const snakbar = document.getElementById('message-container');
@@ -17,4 +21,3 @@ export default function snaker(type, mes, time) {
       snakbar.removeChild(para);
     }, time);
   }
-  
